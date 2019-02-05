@@ -73,7 +73,7 @@
 		"esdoc": "1.x.x",
 		"esdoc-standard-plugin": "1.x.x",
 		"eslint": "5.x.x",
-		"eslint-config-delta": "0.x.x",
+		"eslint-config-delta": "0.0.0",
 		"iterator-result": "0.x.x",
 		"math-ds": "1.x.x",
 		"octree-helper": "0.x.x",
