@@ -7,7 +7,6 @@
 	"module": "src/index.js",
 	"sideEffects": false,
 	"license": "Zlib",
-
 	"keywords": [
 		"partition",
 		"hierarchy",
@@ -20,26 +19,21 @@
 		"frustum",
 		"culling"
 	],
-
 	"author": {
 		"name": "Raoul van Rüschen",
 		"email": "vanruesc@outlook.de"
 	},
-
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/vanruesc/sparse-octree.git"
 	},
-
 	"bugs": {
 		"url": "https://github.com/vanruesc/sparse-octree/issues"
 	},
-
 	"files": [
 		"src",
 		"build"
 	],
-
 	"scripts": {
 		"ava": "ava",
 		"lint": "npm run lint:lib && npm run lint:demo && npm run lint:test",
@@ -55,21 +49,19 @@
 		"test": "npm run ava",
 		"prepack": "npm test"
 	},
-
 	"ava": {
 		"failFast": true,
-		"files": ["test/**/*.js"]
+		"files": [
+			"test/**/*.js"
+		]
 	},
-
 	"eslintConfig": {
 		"extends": "delta"
 	},
-
 	"peerDependencies": {
 		"iterator-result": ">= 0.0.0 < 1.0.0",
 		"math-ds": ">= 1.0.0 < 2.0.0"
 	},
-
 	"devDependencies": {
 		"@babel/core": "7.x.x",
 		"@babel/preset-env": "7.x.x",
